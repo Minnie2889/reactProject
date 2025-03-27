@@ -1,0 +1,17 @@
+git init (inizializzo a git la cartella)
+
+git add -A :/ (aggiungo tutti i file creati nella mia cartella alla mia repository locale)
+
+git commit -m "fist commit" (sto creando il pacchetto con ciò che mi serve) 
+
+git -M nome branch remoto (branch della  mia repository)
+
+git remote add origin + indirizzo url della repository remota
+
+git push -f oppure git push -u origin + nome del branch remoto
+
+qualsiasi errore che da il terminale di git, ricorda che git suggerisce sempre una soluzione con dei comandi, quindi eseguirli e nel caso si hanno ancora problemi fare troubleshooting su internet 
+
+quando dentro un cmd (prompt dei comandi/terminale), per evitare di andare manualmente all'interno di una cartella e aprire il cmd, dal cmd aperto precedentemente scrivere: cd NOME CARTELLA DI DESTINAZIONE (col tab o scritta a mano)
+
+git checkout -b +nome branch che scelgo io in camelCase : per staccare un branch sul quale io lavorerò - invio - git branch (per vedere dove sono posizionata). 
